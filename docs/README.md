@@ -11,9 +11,11 @@
 Go to [the install page](../YouTube%20Downloader/publish/publish.htm) to download the latest installer.
 
 ## Install by hand from the command line
-```
-SET dp=C:\users\%username%\desktop\setup.exe
-BITSADMIN /transfer YouTube_Download /download /priority high https://tinyurl.com/YouTube-Downloader-Installer %dp%&start %dp% 
+```bat
+:: Download Installer
+@BITSADMIN /transfer job bit.do/ydli %cd%/setup.exe
+:: Run Installer
+@SETUP
 ```
 
 # Help
