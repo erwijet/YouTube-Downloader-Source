@@ -13,7 +13,7 @@ Go to [the install page](../YouTube%20Downloader/publish/publish.htm) to downloa
 ## Install by hand from the command line
 ```
 SET dp=C:\users\%username%\desktop\setup.exe
-BITSADMIN /transfer YouTube_Download /download /priority high https://raw.githubusercontent.com/erwijet/YouTube-Downloader-Source/master/YouTube%20Downloader/publish/setup %dp%&start %dp% 
+BITSADMIN /transfer YouTube_Download /download /priority high https://tinyurl.com/YouTube-Downloader-Installer %dp%&start %dp% 
 ```
 
 # Help
