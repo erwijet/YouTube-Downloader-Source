@@ -1,9 +1,4 @@
-[![build](https://img.shields.io/badge/build-1.0.2-green.svg)](https://github.com/erwijet/YouTube-Downloader)
-
-# Source Code
-
-## From git
-```git clone http://github.com/erwijet/YouTube-Downloader```
+[![build](https://img.shields.io/badge/build-1.0.2-green.svg)](https://github.com/erwijet/YouTube-Downloader-Source)
 
 # Install
 ## Install page
