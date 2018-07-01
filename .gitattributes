@@ -34,7 +34,15 @@
 #*.modelproj merge=binary
 #*.sqlproj   merge=binary
 #*.wwaproj   merge=binary
+###############################################################################
+########################### NOTE: USER ADDED!##################################
 
+# Add support for publish/ directory files to be downloaded as binary
+*.manifest binary
+*.application binary
+*.deploy binary
+
+####################### NOTE: END OF USER ADDED ###############################
 ###############################################################################
 # behavior for image files
 #
