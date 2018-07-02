@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube Downloader", "YouTube Downloader\YouTube Downloader.csproj", "{914841D9-B6ED-4E0B-826D-3EF9EEE7488C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YouTube_Downloader", "YouTube Downloader\YouTube_Downloader.csproj", "{914841D9-B6ED-4E0B-826D-3EF9EEE7488C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
