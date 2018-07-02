@@ -3,7 +3,7 @@
 # Install
 ## Install page
 
-Go to [the install page](http://erwijet.github.io/YouTube-Downloader-Source/YouTube-Downloader/publish/publish.htm) to download the latest installer.
+Go to [the install page](http://erwijet.github.io/YouTube-Downloader-Source/YouTube_Downloader/publish/publish.htm) to download the latest installer.
 
 ## Install by hand from the command line
 ```bat
