@@ -174,7 +174,7 @@
             this.l_filepath.AutoSize = true;
             this.l_filepath.BackColor = System.Drawing.Color.Transparent;
             this.l_filepath.Enabled = false;
-            this.l_filepath.ForeColor = System.Drawing.Color.Green;
+            this.l_filepath.ForeColor = System.Drawing.Color.Red;
             this.l_filepath.Location = new System.Drawing.Point(210, 41);
             this.l_filepath.Name = "l_filepath";
             this.l_filepath.Size = new System.Drawing.Size(22, 13);
@@ -205,12 +205,12 @@
             // 
             this.l_youtubepath.AutoSize = true;
             this.l_youtubepath.BackColor = System.Drawing.Color.Transparent;
-            this.l_youtubepath.ForeColor = System.Drawing.Color.Green;
+            this.l_youtubepath.ForeColor = System.Drawing.Color.Red;
             this.l_youtubepath.Location = new System.Drawing.Point(210, 20);
             this.l_youtubepath.Name = "l_youtubepath";
-            this.l_youtubepath.Size = new System.Drawing.Size(131, 13);
+            this.l_youtubepath.Size = new System.Drawing.Size(126, 13);
             this.l_youtubepath.TabIndex = 9;
-            this.l_youtubepath.Text = "http://www.youtube.com/";
+            this.l_youtubepath.Text = "http://www.youtube.com";
             // 
             // l_youtubepath_prompt
             // 
