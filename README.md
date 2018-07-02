@@ -3,7 +3,7 @@
 # Install
 ## Install page
 
-Go to [the install page](../YouTube%20Downloader/publish/publish.htm) to download the latest installer.
+Go to [the install page](YouTube%20Downloader/publish/publish.htm) to download the latest installer.
 
 ## Install by hand from the command line
 ```bat
