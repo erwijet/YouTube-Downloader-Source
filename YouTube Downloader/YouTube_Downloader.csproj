@@ -22,13 +22,13 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://raw.githubusercontent.com/erwijet/YouTube-Downloader-Source/master/YouTube%2520Downloader/publish/</InstallUrl>
-    <UpdateUrl>https://raw.githubusercontent.com/erwijet/YouTube-Downloader-Source/master/YouTube%2520Downloader/publish/</UpdateUrl>
+    <InstallUrl>https://raw.githubusercontent.com/erwijet/YouTube-Downloader-Source/master/YouTube-Downloader/publish/</InstallUrl>
+    <UpdateUrl>https://raw.githubusercontent.com/erwijet/YouTube-Downloader-Source/master/YouTube-Downloader/publish/</UpdateUrl>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <TrustUrlParameters>true</TrustUrlParameters>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.4.0</ApplicationVersion>
+    <ApplicationVersion>1.0.5.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
