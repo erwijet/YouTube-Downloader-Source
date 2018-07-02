@@ -1,7 +1,7 @@
 [![build](https://img.shields.io/badge/build-1.0.6-green.svg)](https://github.com/erwijet/YouTube-Downloader-Source)
 
 # Install
-## Install page test
+## Install page
 
 Go to [the install page](YouTube%20Downloader/publish/publish.htm) to download the latest installer.
 
