@@ -13,6 +13,9 @@ Go to [the install page](YouTube%20Downloader/publish/publish.htm) to download t
 @SETUP
 ```
 
+## Run archives of this application
+[Archives Page]("Archives.md")
+
 # Help
 ~~Refer to the [help manual](manual.html) for known bugs and help~~
 ## Help Videos
