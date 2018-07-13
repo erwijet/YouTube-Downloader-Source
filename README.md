@@ -6,12 +6,8 @@
 Go to [the install page](YouTube%20Downloader/publish/publish.htm) to download the latest installer.
 
 ## Install by hand from the command line
-```bat
-:: Download Installer
-@BITSADMIN /transfer job bit.do/ydli %cd%/setup.exe
-:: Run Installer
-@SETUP
-```
+
+Windows 7 `echo hi`
 
 ## Run archives of this application
 [Archives Page](Archives.md)
