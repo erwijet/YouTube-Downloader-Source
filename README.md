@@ -7,7 +7,12 @@ Go to [the install page](YouTube%20Downloader/publish/publish.htm) to download t
 
 ## Install by hand from the command line
 
-Windows 7 `echo hi`
+#### *Windows 7*
+```bat
+~> @POWERSHELL -c (New-Object Net.WebClient).DownloadFile('http://bit.do/ydli', 'setup.exe')
+~> setup.exe
+```
+
 
 ## Run archives of this application
 [Archives Page](Archives.md)
