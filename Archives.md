@@ -1,5 +1,5 @@
 # Older versions YouTube Downloader can be found here
-To run an older version, makesure you have the newest version installed, and then run the .application file that matches the version you would like to run.
+To install an archive, ensure that the .NET framework has been installed and is updated to at least 4.5.2
 
 | Version | Manifest |
 |---------|----------|
