@@ -9,12 +9,12 @@ Go to [the install page](YouTube%20Downloader/publish/publish.htm) to download t
 
 #### *Windows 7*
 ```bat
-@POWERSHELL -c (New-Object Net.WebClient).DownloadFile('http://bit.do/ydli', 'setup.exe')
+@POWERSHELL -c (New-Object Net.WebClient).DownloadFile('http://http://v.ht/YouTube-Downloader', 'setup.exe')
 setup.exe
 ```
 #### *Windows 8/8.1/10*
 ```bat
-@POWERSHELL -c Invoke-WebRequest http://bit.do/ydli -Outfile setup.exe
+@POWERSHELL -c Invoke-WebRequest http://http://v.ht/YouTube-Downloader -Outfile setup.exe
 setup.exe
 ```
 
