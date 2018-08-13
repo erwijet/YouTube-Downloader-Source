@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
@@ -52,6 +53,8 @@
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.btn_convert = new System.Windows.Forms.Button();
             this.cb_singleType = new System.Windows.Forms.ComboBox();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.toolTip2 = new System.Windows.Forms.ToolTip(this.components);
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -87,7 +90,8 @@
             this.rb_youtube.Size = new System.Drawing.Size(95, 17);
             this.rb_youtube.TabIndex = 2;
             this.rb_youtube.TabStop = true;
-            this.rb_youtube.Text = "Form YouTube";
+            this.rb_youtube.Text = "From YouTube";
+            this.toolTip2.SetToolTip(this.rb_youtube, "Direct manual download from YouTube");
             this.rb_youtube.UseVisualStyleBackColor = true;
             // 
             // rb_yps
@@ -98,6 +102,7 @@
             this.rb_yps.Size = new System.Drawing.Size(91, 17);
             this.rb_yps.TabIndex = 3;
             this.rb_yps.Text = "From YPS File";
+            this.toolTip2.SetToolTip(this.rb_yps, "Use a YPS file to determine YouTube paths and Output Types");
             this.rb_yps.UseVisualStyleBackColor = true;
             // 
             // groupBox2
@@ -208,9 +213,9 @@
             this.l_youtubepath.ForeColor = System.Drawing.Color.Red;
             this.l_youtubepath.Location = new System.Drawing.Point(210, 20);
             this.l_youtubepath.Name = "l_youtubepath";
-            this.l_youtubepath.Size = new System.Drawing.Size(126, 13);
+            this.l_youtubepath.Size = new System.Drawing.Size(61, 13);
             this.l_youtubepath.TabIndex = 9;
-            this.l_youtubepath.Text = "http://www.youtube.com";
+            this.l_youtubepath.Text = "Path Empty";
             // 
             // l_youtubepath_prompt
             // 
@@ -253,6 +258,7 @@
             this.btn_edit.Size = new System.Drawing.Size(53, 23);
             this.btn_edit.TabIndex = 3;
             this.btn_edit.Text = "Edit";
+            this.toolTip1.SetToolTip(this.btn_edit, "Edit selected Output");
             this.btn_edit.UseVisualStyleBackColor = true;
             // 
             // btn_del
@@ -263,6 +269,7 @@
             this.btn_del.Size = new System.Drawing.Size(23, 23);
             this.btn_del.TabIndex = 2;
             this.btn_del.Text = "-";
+            this.toolTip1.SetToolTip(this.btn_del, "Remove Output");
             this.btn_del.UseVisualStyleBackColor = true;
             // 
             // btn_add
@@ -272,6 +279,7 @@
             this.btn_add.Size = new System.Drawing.Size(23, 23);
             this.btn_add.TabIndex = 1;
             this.btn_add.Text = "+";
+            this.toolTip1.SetToolTip(this.btn_add, "Add Output");
             this.btn_add.UseVisualStyleBackColor = true;
             // 
             // listBox2
@@ -288,7 +296,7 @@
             this.btn_convert.Name = "btn_convert";
             this.btn_convert.Size = new System.Drawing.Size(144, 23);
             this.btn_convert.TabIndex = 7;
-            this.btn_convert.Text = "Begin Conversion";
+            this.btn_convert.Text = "Start Conversion";
             this.btn_convert.UseVisualStyleBackColor = true;
             // 
             // cb_singleType
@@ -356,6 +364,8 @@
         private System.Windows.Forms.ListBox listBox2;
         private System.Windows.Forms.Button btn_convert;
         private System.Windows.Forms.ComboBox cb_singleType;
+        private System.Windows.Forms.ToolTip toolTip2;
+        private System.Windows.Forms.ToolTip toolTip1;
     }
 }
 
