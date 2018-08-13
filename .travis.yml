@@ -1,4 +1,6 @@
 language: csharp
 solution: YouTube Downloader.sln
-sudo: enabled
-os: Windows
+mono: none
+dotnet: 1.1.5
+script:
+ - dotnet restore
